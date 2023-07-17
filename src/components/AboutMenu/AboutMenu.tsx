@@ -35,7 +35,7 @@ const AboutMenu = () => {
                   ns='about'
                   components={[
                     <a
-                      href='https://github.com/ztjhz/BetterChatGPT'
+                      href='https://gitee.com/aiyvyang-studio/AYYChatGPT'
                       target='_blank'
                       className='link'
                     />,
@@ -87,7 +87,7 @@ const AboutMenu = () => {
                     ns='about'
                     components={[
                       <a
-                        href='https://github.com/ztjhz/BetterChatGPT'
+                        href='https://gitee.com/aiyvyang-studio/AYYChatGPT'
                         target='_blank'
                         className='link'
                       />,
@@ -104,7 +104,7 @@ const AboutMenu = () => {
                       alt='Support us through GitHub Sponsors'
                     />
                   </a>
-                  <a href='https://ko-fi.com/betterchatgpt' target='_blank'>
+                  <a href='https://ko-fi.com/T6T3NAGVW' target='_blank'>
                     <img
                       src='./kofi.svg'
                       alt='Support us through the Ko-fi platform.'
@@ -115,7 +115,7 @@ const AboutMenu = () => {
                       <div>{t('support.alipay', { ns: 'about' })} (Ayaka)</div>
                       <img
                         className='rounded-md w-32 h-32'
-                        src='https://ayaka14732.github.io/sponsor/alipay.jpg'
+                        src='./alipay.png'
                         alt='Support us through Alipay'
                       />
                     </div>
@@ -125,7 +125,7 @@ const AboutMenu = () => {
                       </div>
                       <img
                         className='rounded-md w-32 h-32'
-                        src='https://ayaka14732.github.io/sponsor/wechat.png'
+                        src='./wxpay.png'
                         alt='Support us through WeChat Pay'
                       />
                     </div>
