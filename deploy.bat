@@ -1,0 +1,18 @@
+@echo off
+echo.
+echo [deploy] build deploy
+echo.
+
+call yarn build
+
+cd dist
+
+git init
+
+git add -A
+
+git commit -m 'deploy'
+
+git push -f https://gitee.com/aiyvyang-studio/AYYChatGPT.git main:gh-pages
+
+exit
